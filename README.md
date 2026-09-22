@@ -7,7 +7,7 @@ drivers. Part of the [Kyanite](https://github.com/kyanitecomputer) stack.
 
 ## Overview
 
-`src.kyanite.computer/hal` defines the hardware-abstraction interfaces that
+`src.kyanite.computer/embedded-go-hal` defines the hardware-abstraction interfaces that
 Kyanite drivers implement and firmware consumes. The packages use only the Go
 standard library — no external dependencies — so they can be shared across
 TamaGo bare-metal targets and host tooling alike.
@@ -15,7 +15,7 @@ TamaGo bare-metal targets and host tooling alike.
 ## Import
 
 ```sh
-go get src.kyanite.computer/hal
+go get src.kyanite.computer/embedded-go-hal
 ```
 
 ## Packages
